@@ -1,0 +1,29 @@
+{
+  "name": "simy",
+  "version": "1.0.0",
+  "description": "Since i met you",
+  "main": "index.js",
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "xo && ava --verbose"
+  },
+  "repository": "banminkyoz/simy",
+  "keywords": [
+    "Since i met you",
+    "Kyoz"
+  ],
+  "author": {
+    "name": "Kyoz",
+    "email": "banminkyoz@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "xo": "^0.21.1"
+  },
+  "xo": {
+    "space": 2
+  }
+}
