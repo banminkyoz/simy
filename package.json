@@ -1,7 +1,11 @@
 {
   "name": "simy",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Since i met you",
+  "author": {
+    "name": "Kyoz",
+    "email": "banminkyoz@gmail.com"
+  },
   "main": "index.js",
   "engines": {
     "node": ">=6"
@@ -11,19 +15,17 @@
   },
   "repository": "banminkyoz/simy",
   "keywords": [
-    "Since i met you",
-    "Kyoz"
+    "simy",
+    "since i met you",
+    "cli",
+    "tool"
   ],
-  "author": {
-    "name": "Kyoz",
-    "email": "banminkyoz@gmail.com"
-  },
-  "license": "MIT",
   "devDependencies": {
     "ava": "^0.25.0",
     "xo": "^0.21.1"
   },
   "xo": {
     "space": 2
-  }
+  },
+  "license": "MIT"
 }
