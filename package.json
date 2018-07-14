@@ -15,7 +15,7 @@
   "files": [
     "index.js",
     "cli.js",
-    "./data/times.js"
+    "data"
   ],
   "scripts": {
     "test": "xo && ava --verbose"
