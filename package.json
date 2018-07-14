@@ -2,18 +2,24 @@
   "name": "simy",
   "version": "1.1.1",
   "description": "Since i met you",
+  "repository": "banminkyoz/simy",
+  "license": "MIT",
   "author": {
     "name": "Kyoz",
     "email": "banminkyoz@gmail.com"
   },
-  "main": "index.js",
   "engines": {
     "node": ">=6"
   },
+  "bin": "cli.js",
+  "files": [
+    "index.js",
+    "cli.js",
+    "./data/times.js"
+  ],
   "scripts": {
     "test": "xo && ava --verbose"
   },
-  "repository": "banminkyoz/simy",
   "keywords": [
     "simy",
     "since i met you",
@@ -22,10 +28,14 @@
   ],
   "devDependencies": {
     "ava": "^0.25.0",
+    "execa": "^0.10.0",
     "xo": "^0.21.1"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "meow": "^5.0.0"
   },
   "xo": {
     "space": 2
-  },
-  "license": "MIT"
+  }
 }
