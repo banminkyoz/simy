@@ -1,3 +1,3 @@
 module.exports = {
-  firstTimeMet: '11/06/2017 08:23:00' // Format: mm/dd/yyyy hh:mm;ss
+  firstTimeMet: '04/31/2020 21:44:00' // Format: mm/dd/yyyy hh:mm;ss
 };
